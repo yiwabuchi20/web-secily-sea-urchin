@@ -1,0 +1,44 @@
+.sub-concept {
+  .sub-concept-content {
+    img:nth-child(1) {
+      margin-top: 8.4rem;
+      margin-bottom: 1.2rem;
+    }
+    h3 {
+      font-size: 2.4rem;
+    }
+    h3:nth-child(3) {
+      margin: 0;
+      margin-top: 3.6rem;
+    }
+    h3:nth-child(4) {
+      margin: 0;
+    }
+    p {
+      margin: 0;
+    }
+    p:nth-child(5) {
+      margin-top: 2.4rem;
+    }
+  }
+  p:nth-child(7) {
+    margin-bottom: 4rem;
+  }
+}
+
+.sub-concept-paragraph1 {
+  margin: 4.4rem 0;
+}
+.sub-concept-picture1 {
+  margin-top: 11rem;
+}
+.sub-concept-picture2 {
+  margin-top: 8.8rem;
+}
+.sub-concept-picture3 {
+  margin-top: 8.8rem;
+}
+.sub-concept-picture4 {
+  margin-top: -2rem;
+  margin-bottom: 18rem;
+}
