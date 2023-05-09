@@ -1,0 +1,88 @@
+// ハンバーガーメニューボタン
+.floating-button {
+  width: 100%;
+  height:64px;
+  background-color: $white;
+  display: flex;
+  justify-content: space-between;
+  position:fixed;
+  bottom:0px;
+  z-index: 999;
+}
+.nav-container {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: rgba(0, 54, 86, 0.1);
+  border-width: 1px;
+}
+.nav-button {
+  //   width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2.4rem;
+  color: $text-blue;
+  cursor: pointer;
+
+  @media (min-width: 769px) {
+    display: none;
+  }
+  p {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+  }
+}
+.shop-button-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-color: rgba(0, 54, 86, 0.1);
+  border-width: 1px;
+}
+.shop-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.4rem;
+  p {
+    font-size: 1.6rem;
+  }
+}
+.shop-button-text {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-left: 1rem;
+  p {
+    margin: 0;
+  }
+  p:nth-child(1) {
+    margin-bottom: -0.5rem;
+  }
+  p:nth-child(n + 2) {
+    margin-top: -0.5rem;
+  }
+}
+
+// SPナビゲーション
+.sp-nav {
+    position: absolute;
+    bottom: 64px;
+    left: 0;
+    display: none;
+  
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    padding: 0 3rem;
+    font-size: 4rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    //   border-top: 1px solid $gray2;
+    box-sizing: border-box;
+  }

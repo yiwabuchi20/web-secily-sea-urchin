@@ -1,0 +1,54 @@
+//
+// ベースのスタイル
+//
+
+// 変数
+$white: #fff;
+$black: #222;
+$gray: #999;
+$text-blue: #1a4a67;
+$light-blue:#95d2e5;
+$yellow:#fcd64a;
+$facebook-blue:#1a77f2;
+$twitter-blue:#3399ff;
+$insta-pink:#f10075;
+
+// ベーススタイル
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Oxygen Mono", "Noto Serif JP";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: $text-blue;
+  background-color: $white;
+  width:100vw;
+  @media (min-width: 769px) {
+    // font-size: 1.6rem;
+  }
+}
+
+a {
+  color: $text-blue;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+// 共通で使用するボタン
+.read-more-btn{
+  width:100%;
+  border-bottom:#1a4a67 solid 1px;
+  display: flex;
+  justify-content: space-between;
+  p{
+    margin:0;
+    padding-bottom:1.4rem;
+  }
+}
