@@ -574,4 +574,17 @@ img {
   margin-bottom: 18rem;
 }
 
+.sub-product img {
+  margin-top: 6rem;
+  margin-bottom: 3.2rem;
+}
+.sub-product h3 {
+  font-size: 2.4rem;
+  margin: 0;
+}
+.sub-product p {
+  margin-top: 2rem;
+  margin-bottom: 16rem;
+}
+
 /*# sourceMappingURL=style.css.map */
