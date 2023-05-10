@@ -8,6 +8,9 @@
   position:fixed;
   bottom:0px;
   z-index: 999;
+  @media(min-width: 769px){
+    display:none;
+  }
 }
 .nav-container {
   width: 50%;
@@ -71,6 +74,7 @@
 
 // SPナビゲーション
 .sp-nav {
+  display:none;
     position: fixed;
     bottom: 64px;
     left: 100%;
@@ -84,6 +88,9 @@
     background-color:$white;
     //   border-top: 1px solid $gray2;
     box-sizing: border-box;
+    @media(min-width: 769px){
+      display:none;
+    }
   }
   .sp-nav-container{
     display:flex;
