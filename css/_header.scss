@@ -133,7 +133,7 @@
   .pc-header{
     position:fixed;
     // background-color: rgba(0,0,0,.2);
-    // z-index: 999;
+    z-index: 999;
     width:100%;
     @media (max-width:767px) {
       display: none;

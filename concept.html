@@ -31,7 +31,7 @@
           <div class="nav-container">
             <div id="nav-button" class="nav-button">
               <i class="fas fa-bars" aria-label="menu"></i>
-              <i class="fas fa-times" style="display:none"></i>
+              <i class="fas fa-times" style="display: none"></i>
               <p>MENU</p>
             </div>
           </div>
@@ -63,13 +63,24 @@
           </div>
         </nav>
         <!-- PCナビゲーション -->
-        <!-- <nav class="pc-nav">
-          <ul class="pc-nav-list"> -->
-        <!-- <li><a href="information.html">INFORMATION</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="menu.html">MENU</a></li> -->
-        <!-- </ul>
-        </nav> -->
+        <div class="pc-header">
+          <nav class="pc-nav">
+            <ul class="pc-nav-list">
+              <li><a href="concept.html">CONCEPT</a></li>
+              <li><a href="product.html">PRODUCT</a></li>
+              <li><a href="information.html">INFORMATION</a></li>
+            </ul>
+          </nav>
+          <div class="pc-nav-logo">
+            <a href="index.html">
+              <h1>SICILY</h1>
+              <h1>SEA URCHIN</h1>
+            </a>
+          </div>
+          <a class="header-shop-btn" href="https://www.google.com/?hl=ja"
+            >ONLINE STORE ↗︎</a
+          >
+        </div>
       </div>
     </header>
 
@@ -85,38 +96,65 @@
           <p>コンセプト</p>
         </div>
       </div>
+      <div class="pc-sub-cover">
+        <div class="pc-sub-cover-text">
+          <h2>CONCEPT</h2>
+          <p>コンセプト</p>
+        </div>
+      </div>
 
       <section class="sub-concept">
         <div class="top-container">
-          <div class="sub-concept-content">
-            <img src="./images/Bringing smiles.png" alt="copy" />
-            <img src="./images/to the world.png" alt="copy" />
-            <h3>今、いちばん美味しい</h3>
-            <h3>雲丹をお届けする。</h3>
-            <div class="sub-concept-paragraph1">
-              <p>私たちが目指しているのは</p>
-              <p>いちばん美味しい状態の雲丹をお届けすること。</p>
-            </div>
-            <div class="sub-concept-paragraph2">
-              <p>シチリアのウニを知り尽くした私たちが、</p>
-              <p>その時期に最も美味しい雲丹をセレクトします。</p>
+          <div class="pc-sub-concept-left">
+            <div class="sub-concept-content">
+              <img src="./images/Bringingsmiles.png" alt="copy" />
+              <br />
+              <img src="./images/totheworld.png" alt="copy" />
+              <div class="sub-concept-txt">
+                <h3>今、いちばん美味しい</h3>
+                <h3>雲丹をお届けする。</h3>
+              </div>
+              <div class="sub-concept-paragraph1">
+                <p>私たちが目指しているのは</p>
+                <p>いちばん美味しい状態の雲丹をお届けすること。</p>
+              </div>
+              <div class="sub-concept-paragraph2">
+                <p>シチリアのウニを知り尽くした私たちが、</p>
+                <p>その時期に最も美味しい雲丹をセレクトします。</p>
+              </div>
+              <div class="sub-concept-paragraph3">
+                <p>皆さまのお気に入りの一粒に出会ってほしい。</p>
+                <p>そのお手伝いをするのが</p>
+                <p>SICILY SEA URCHINです。</p>
+              </div>
+              <div class="sub-concept-txt2">
+                <h3>今、いちばん美味しい</h3>
+                <h3>雲丹をお届けする。</h3>
+              </div>
             </div>
           </div>
-          <img
-            src="./images/concept/concept_picture1.png"
-            alt="market"
-            class="sub-concept-picture1"
-          />
-          <img
-            src="./images/concept/concept_picture2.png"
-            alt="location"
-            class="sub-concept-picture2"
-          />
+          <div class="pc-sub-concept-right">
+            <img
+              src="./images/concept/concept_picture1.png"
+              alt="market"
+              class="sub-concept-picture1"
+            />
+            <img
+              src="./images/concept/concept_picture2.png"
+              alt="location"
+              class="sub-concept-picture2"
+            />
+          </div>
         </div>
         <img
           src="./images/concept/concept_picture3.png"
           alt="product"
           class="sub-concept-picture3"
+        />
+        <img
+          src="./images/concept/concept_picture3_long.png"
+          alt=""
+          class="sub-concept-picture3-long"
         />
         <div class="top-container">
           <img
@@ -124,6 +162,24 @@
             alt="woman"
             class="sub-concept-picture4"
           />
+          <img
+            src="./images/concept/concept_picture4_big.png"
+            alt="woman"
+            class="sub-concept-picture4-big"
+          />
+          <div class="sub-concept-paragraph4">
+            <p>
+              雲丹を通じて、皆さまに笑顔があふれる幸せな時間を提供する。それが、私たち
+            </p>
+            <p>の使命です。</p>
+            <p>
+              本当においしい雲丹を、おいしい時季にお届けし、これからも雲丹の未来を切り
+            </p>
+            <p>
+              開くリーディングカンパニーとして、皆さまに満足いただける雲丹を提供してま
+            </p>
+            <p>いります。</p>
+          </div>
         </div>
       </section>
     </main>
@@ -140,28 +196,55 @@
         >
       </div>
 
-      <div class="sns">
-        <div class="sns-text">FOLLOW US</div>
-        <ul class="sns-icon">
-          <li class="li-facebook">
-            <a href="https://www.facebook.com/facebookappJapan/" target="_blank"
-              ><i class="fab fa-facebook-f" aria-label="facebook"></i
-            ></a>
-          </li>
-          <li class="li-twitter">
-            <a href="https://twitter.com/TwitterJP" target="_blank"
-              ><i class="fab fa-twitter" aria-label="twitter"></i
-            ></a>
-          </li>
-          <li class="li-insta">
-            <a href="https://www.instagram.com/" target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </li>
-        </ul>
+      <div class="top-container">
+        <div class="pc-footer-container">
+          <div class="sns">
+            <div class="sns-text">FOLLOW US</div>
+            <ul class="sns-icon">
+              <li class="li-facebook">
+                <a
+                  href="https://www.facebook.com/facebookappJapan/"
+                  target="_blank"
+                  ><i class="fab fa-facebook-f" aria-label="facebook"></i
+                ></a>
+              </li>
+              <li class="li-twitter">
+                <a href="https://twitter.com/TwitterJP" target="_blank"
+                  ><i class="fab fa-twitter" aria-label="twitter"></i
+                ></a>
+              </li>
+              <li class="li-insta">
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="copy-rights">@ SICILY SEA URCHIN RIGHTS RESERVED.</div>
+          <div class="pc-sns">
+            <div class="sns-text">FOLLOW US</div>
+            <ul class="sns-icon">
+              <li class="li-facebook">
+                <a
+                  href="https://www.facebook.com/facebookappJapan/"
+                  target="_blank"
+                  ><i class="fab fa-facebook-f" aria-label="facebook"></i
+                ></a>
+              </li>
+              <li class="li-twitter">
+                <a href="https://twitter.com/TwitterJP" target="_blank"
+                  ><i class="fab fa-twitter" aria-label="twitter"></i
+                ></a>
+              </li>
+              <li class="li-insta">
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-
-      <div class="copy-rights">@ SICILY SEA URCHIN RIGHTS RESERVED.</div>
     </footer>
 
     <!-- JS -->
