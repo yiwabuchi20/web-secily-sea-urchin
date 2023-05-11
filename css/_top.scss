@@ -21,8 +21,8 @@
   display: flex;
   flex-direction: row-reverse;
   margin-top: 5rem;
-  @media(min-width: 768px){
-    margin-top:16.8rem;
+  @media (min-width: 768px) {
+    margin-top: 16.8rem;
   }
   .copy-txt-item:nth-child(2) {
     margin-top: 2.4rem;
@@ -73,7 +73,6 @@
     }
     p:nth-child(3) {
       margin-top: 2.4rem;
-
     }
   }
   p:nth-child(5) {
@@ -88,9 +87,34 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     height: 64rem;
     background-image: url(../images/top/concept_picture_long.png);
+  }
+}
+.pc-content-container {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15.6rem;
+  }
+}
+.pc-concept-block {
+  @media (min-width: 768px) {
+    width: 40%;
+  }
+}
+.pc-concept-block2 {
+  width: 42%;
+  display: flex;
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+  }
+  @media (max-width: 767px) {
+    display: none;
   }
 }
 
@@ -110,18 +134,18 @@
       margin-bottom: 4rem;
     }
 
-    @media(min-width: 768px){
-      display:none;
+    @media (min-width: 768px) {
+      display: none;
     }
   }
   .copy-txt {
     justify-content: flex-end;
-    @media(min-width: 768px){
-      display:none;
+    @media (min-width: 768px) {
+      display: none;
     }
   }
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     margin-top: 16rem;
   }
 }
@@ -133,14 +157,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     background-image: url(../images/top/product_picture1_long.png);
-    height:44rem;
+    height: 44rem;
   }
 }
-.product-picture1-container{
+.product-picture1-container {
   max-width: 110rem;
-  margin:0 auto;
+  margin: 0 auto;
 }
 .product-picture2 {
   width: 100vw;
@@ -150,60 +174,60 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     background-image: url(../images/top/product_picture2_long.png);
-    height:64rem;
-    margin-top:16rem;
+    height: 64rem;
+    margin-top: 16rem;
   }
 }
-.pc-top-product-container{
-  @media(min-width: 768px){
+.pc-top-product-container {
+  @media (min-width: 768px) {
     display: flex;
     justify-content: space-between;
-    a{
-      width:35%;
-      height:fit-content;
-      margin-top:7.6rem;
+    a {
+      width: 35%;
+      height: fit-content;
+      margin-top: 7.6rem;
     }
   }
 }
-.pc-product-content{
-  @media(max-width: 767px){
+.pc-product-content {
+  @media (max-width: 767px) {
     display: none;
   }
-  @media(min-width: 768px){
-    width:50%;
-    margin-top:7.6rem;
-    p{
-      margin:0;
+  @media (min-width: 768px) {
+    width: 50%;
+    margin-top: 7.6rem;
+    p {
+      margin: 0;
     }
   }
 }
 .pc-product-copy-txt {
-  @media(max-width: 767px){
+  @media (max-width: 767px) {
     display: none;
   }
-  width:fit-content;
+  width: fit-content;
   display: flex;
   flex-direction: row-reverse;
   align-items: flex-start;
   // margin-right:100rem;
-  margin-top:-18.4rem;
+  margin-top: -18.4rem;
   .copy-txt-item:nth-child(2) {
     margin-top: 2.4rem;
   }
   .copy-txt-item:nth-child(3) {
     margin-top: 4.8rem;
-    margin-left:0;
+    margin-left: 0;
   }
 }
-.pc-product-copy-container{
-  @media(max-width: 767px){
+.pc-product-copy-container {
+  @media (max-width: 767px) {
     display: none;
   }
-  @media(min-width: 768px){
-    max-width:110rem;
-    padding-right:70%;
+  @media (min-width: 768px) {
+    max-width: 110rem;
+    padding-right: 70%;
   }
 }
 
@@ -214,6 +238,17 @@
   }
   .read-more-btn {
     margin-bottom: 7.2rem;
+    @media (min-width: 768px) {
+      width:57%;
+      margin: 0 0 16rem auto;
+    }
+  }
+  .top-container {
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }
 .information-item {
@@ -224,8 +259,11 @@
   border-top-color: rgba(0, 54, 86, 0.1);
   border-width: 1px;
 }
-.information-text{
-  margin-left:1.2rem;
+.sp-information-text {
+  margin-left: 1.2rem;
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
 .information-items {
   .information-item:nth-child(3) {
@@ -235,7 +273,10 @@
     margin-bottom: 4.8rem;
   }
 }
-.information-content {
+.sp-information-content {
+  @media (min-width: 768px) {
+    display: none;
+  }
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -253,11 +294,10 @@
 }
 .date {
   justify-content: flex-end;
-  //   font-family: "Noto Serif JP";
   font-weight: 100;
   color: $gray;
   font-size: 1.2rem;
-  margin-left:1.2rem;
+  margin-left: 1.2rem;
 }
 .information-picture1 {
   width: 40vw;
@@ -265,6 +305,10 @@
   background-image: url(../images/top/information_picture1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  @media (min-width: 768px) {
+    width: 25%;
+  }
 }
 .information-picture2 {
   width: 40vw;
@@ -272,6 +316,10 @@
   background-image: url(../images/top/information_picture2.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  @media (min-width: 768px) {
+    width: 25%;
+  }
 }
 .information-picture3 {
   width: 40vw;
@@ -279,38 +327,37 @@
   background-image: url(../images/top/information_picture3.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.pc-copy-image {
+  background-position: center;
   @media (min-width: 768px) {
-    display: flex;
-    flex-flow: column;
-    // display: none;
+    width: 25%;
   }
 }
-.pc-content-container {
+.pc-information-left {
+  width:30%;
+  margin-top:-10%;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+.pc-information-right {
+  @media (min-width: 768px) {
+    width: 60%;
+  }
+}
+.pc-information-content {
+  width:75%;
+  margin-left:1.2rem;
+  p {
+    margin: 0;
+    margin-top:5%;
+  }
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+.pc-information-text {
   @media (min-width: 768px) {
     display: flex;
     justify-content: space-between;
-    margin-top: 15.6rem;
-  }
-}
-.pc-concept-block {
-  @media (min-width: 768px) {
-    width: 40%;
-  }
-}
-.pc-concept-block2 {
-  width: 42%;
-  display: flex;
-    img {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-      align-self: center;
-    }
-  @media (max-width: 767px) {
-    display: none;
-    
   }
 }
