@@ -1,7 +1,7 @@
 .sp-cover {
   position: relative;
   width: 100%;
-  height: calc(216.4102564102564vw - 64px);
+  height: calc(100vh - 64px);
   background-image: url(../images/sp_main.png);
   background-size: cover;
   background-position: center;
@@ -46,7 +46,7 @@
 .sub-cover {
   position: relative;
   width: 100%;
-  height: calc(216.4102564102564vw - 64px);
+  height: calc(100vh - 64px);
   background-image: url(../images/sp_main.png);
   background-size: cover;
   background-position: center;
@@ -137,9 +137,8 @@
   color: $white;
   z-index: 1;
   text-align: center;
-  top: 4%;
+  top: 5%;
   h2 {
-    margin-top: 18rem;
     margin-bottom: -1rem;
     font-size: 4.8rem;
   }
