@@ -31,7 +31,7 @@
           <div class="nav-container">
             <div id="nav-button" class="nav-button">
               <i class="fas fa-bars" aria-label="menu"></i>
-              <i class="fas fa-times" style="display:none"></i>
+              <i class="fas fa-times" style="display: none"></i>
               <p>MENU</p>
             </div>
           </div>
@@ -63,13 +63,24 @@
           </div>
         </nav>
         <!-- PCナビゲーション -->
-        <!-- <nav class="pc-nav">
-          <ul class="pc-nav-list"> -->
-        <!-- <li><a href="information.html">INFORMATION</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="menu.html">MENU</a></li> -->
-        <!-- </ul>
-        </nav> -->
+        <div class="pc-header">
+          <nav class="pc-nav">
+            <ul class="pc-nav-list">
+              <li><a href="concept.html">CONCEPT</a></li>
+              <li><a href="product.html">PRODUCT</a></li>
+              <li><a href="information.html">INFORMATION</a></li>
+            </ul>
+          </nav>
+          <div class="pc-nav-logo">
+            <a href="index.html">
+              <h1>SICILY</h1>
+              <h1>SEA URCHIN</h1>
+            </a>
+          </div>
+          <a class="header-shop-btn" href="https://www.google.com/?hl=ja"
+            >ONLINE STORE ↗︎</a
+          >
+        </div>
       </div>
     </header>
 
@@ -85,14 +96,31 @@
           <p>商品紹介</p>
         </div>
       </div>
+      <div class="pc-sub-cover">
+        <div class="pc-sub-cover-text">
+          <h2>PRODUCT</h2>
+          <p>商品紹介</p>
+        </div>
+      </div>
 
       <section class="sub-product">
         <div class="top-container">
           <div class="sub-product-content">
-            <img src="./images/product/product_picture.png" alt="copy" />
-            <h3>夏から秋にかけて旬を迎える雲</h3>
-            <h3>丹</h3>
-            <p>シチリア産</p>
+            <!-- SP画像 -->
+            <img src="./images/product/product_picture.png" alt="product" class="sub-product-picture" />
+            <!-- PC画像 -->
+            <img src="./images/product/product_picture-big.png" alt="product" class="sub-product-picture-big" />
+            <div class="pc-product2-container">
+              <img src="./images/product/product_picture2.png" alt="product" class="pc-product-picture2">
+              <div class="sp-sub-product-paragraph">
+                <h3>夏から秋にかけて旬を迎える雲</h3>
+                <h3>丹</h3>
+              </div>
+              <div class="pc-sub-product-paragraph">
+                <h3>夏から秋にかけて旬を迎える雲丹</h3>
+              </div>
+              <p>シチリア産</p>
+            </div>
           </div>
         </div>
       </section>
@@ -110,28 +138,55 @@
         >
       </div>
 
-      <div class="sns">
-        <div class="sns-text">FOLLOW US</div>
-        <ul class="sns-icon">
-          <li class="li-facebook">
-            <a href="https://www.facebook.com/facebookappJapan/" target="_blank"
-              ><i class="fab fa-facebook-f" aria-label="facebook"></i
-            ></a>
-          </li>
-          <li class="li-twitter">
-            <a href="https://twitter.com/TwitterJP" target="_blank"
-              ><i class="fab fa-twitter" aria-label="twitter"></i
-            ></a>
-          </li>
-          <li class="li-insta">
-            <a href="https://www.instagram.com/" target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </li>
-        </ul>
+      <div class="top-container">
+        <div class="pc-footer-container">
+          <div class="sns">
+            <div class="sns-text">FOLLOW US</div>
+            <ul class="sns-icon">
+              <li class="li-facebook">
+                <a
+                  href="https://www.facebook.com/facebookappJapan/"
+                  target="_blank"
+                  ><i class="fab fa-facebook-f" aria-label="facebook"></i
+                ></a>
+              </li>
+              <li class="li-twitter">
+                <a href="https://twitter.com/TwitterJP" target="_blank"
+                  ><i class="fab fa-twitter" aria-label="twitter"></i
+                ></a>
+              </li>
+              <li class="li-insta">
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="copy-rights">@ SICILY SEA URCHIN RIGHTS RESERVED.</div>
+          <div class="pc-sns">
+            <div class="sns-text">FOLLOW US</div>
+            <ul class="sns-icon">
+              <li class="li-facebook">
+                <a
+                  href="https://www.facebook.com/facebookappJapan/"
+                  target="_blank"
+                  ><i class="fab fa-facebook-f" aria-label="facebook"></i
+                ></a>
+              </li>
+              <li class="li-twitter">
+                <a href="https://twitter.com/TwitterJP" target="_blank"
+                  ><i class="fab fa-twitter" aria-label="twitter"></i
+                ></a>
+              </li>
+              <li class="li-insta">
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-
-      <div class="copy-rights">@ SICILY SEA URCHIN RIGHTS RESERVED.</div>
     </footer>
 
     <!-- JS -->
