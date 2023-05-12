@@ -68,13 +68,9 @@
     }
     p {
       margin: 0;
-    }
-    p:nth-child(3) {
       margin-top: 2.4rem;
+      margin-bottom: 4rem;
     }
-  }
-  p:nth-child(5) {
-    margin-bottom: 4rem;
   }
 }
 .concept-picture {
@@ -124,11 +120,7 @@
   .product-content {
     p {
       margin: 0;
-    }
-    p:nth-child(1) {
       margin-top: 2.4rem;
-    }
-    p:nth-child(2) {
       margin-bottom: 4rem;
     }
 

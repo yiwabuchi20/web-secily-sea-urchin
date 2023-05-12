@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* 文字コードの指定 */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oxygen+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oxygen+Mono&display=swap");
 html {
   font-size: 62.5%;
 }
 
 body {
-  font-family: "Oxygen Mono", "小塚ゴシック Pr6N";
+  font-family: "Oxygen Mono", "IBM Plex Sans JP";
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.75;
@@ -503,11 +503,7 @@ img {
 }
 .concept .concept-txt p {
   margin: 0;
-}
-.concept .concept-txt p:nth-child(3) {
   margin-top: 2.4rem;
-}
-.concept p:nth-child(5) {
   margin-bottom: 4rem;
 }
 
@@ -562,11 +558,7 @@ img {
 }
 .product .product-content p {
   margin: 0;
-}
-.product .product-content p:nth-child(1) {
   margin-top: 2.4rem;
-}
-.product .product-content p:nth-child(2) {
   margin-bottom: 4rem;
 }
 @media (min-width: 768px) {
