@@ -1,0 +1,147 @@
+.footer {
+  padding-bottom: 15rem;
+}
+.footer-picture {
+  width: 100vw;
+  height: 44rem;
+  background-image: url(../images/footer_picture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  @media (min-width: 768px) {
+    background-image: url(../images/footer_picture_long.png);
+    height: 64rem;
+  }
+}
+.footer-picture::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: $black;
+  opacity: 0.3;
+}
+
+.bg-black {
+  width: 100vw;
+  height: 44rem;
+  background-color: $black;
+}
+.footer-text {
+  position: absolute;
+  width: 100%;
+  color: $white;
+  z-index: 999;
+  text-align: center;
+  top: 26%;
+
+  h1 {
+    font-size: 4.8rem;
+    margin: 0;
+  }
+  @media (max-width: 767px) {
+    h1 {
+      // font-size: 4.8rem;
+      font-weight: 400;
+    }
+    h1:nth-child(1) {
+      margin-bottom: -3rem;
+    }
+  }
+  @media (min-width: 768px) {
+    top: 33%;
+  }
+}
+.footer-shop-btn {
+  position: absolute;
+  width: 15rem;
+  border: solid $white 1px;
+  color: $white;
+  font-size: 1.6rem;
+  padding: 0.5rem 2.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  border-radius: 1000px;
+  bottom: 20%;
+  @media (min-width: 768px) {
+    bottom: 23%;
+  }
+}
+.sns-icon {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    background-color: $black;
+    border-radius: 50%;
+    width: 3.2rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.9rem;
+    i {
+      color: $white;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .fa-facebook-f {
+      margin-top: 1rem;
+      font-size: 2.8rem;
+    }
+    .fa-twitter {
+      margin-top: 0.7rem;
+    }
+    .fa-instagram {
+      margin-top: 0.6rem;
+    }
+  }
+  .li-facebook {
+    background-color: $facebook-blue;
+  }
+  .li-twitter {
+    background-color: $twitter-blue;
+  }
+  .li-insta {
+    background-color: $insta-pink;
+  }
+}
+.sns-text {
+  font-size: 1.2rem;
+  margin-right: 1.6rem;
+}
+.sns {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.copy-rights {
+  font-size: 1.2rem;
+  margin-top: 3.2rem;
+  @media (min-width: 768px) {
+    margin-top:4rem;
+  }
+}
+.pc-footer-container {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.pc-sns {
+  @media (max-width: 767px) {
+    display: none;
+  }
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+}
